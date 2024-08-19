@@ -2,10 +2,10 @@
 matriz = []
 
 
-def inserir(tmatriz):
-    for j in range(tmatriz):
+def inserir(linha,coluna):
+    for j in range(linha):
         linha = []  # Cria uma nova linha
-        for i in range(tmatriz):
+        for i in range(coluna):
             valor = int(input(f'Digite o valor da linha {j}, coluna {i}: '))
             linha.append(valor)
         matriz.append(linha)
@@ -23,8 +23,9 @@ def mostrarrecursivo(linha=0,coluna=0):
 
 
 def main():
-    tmatriz = int(input('Digite o tamanho da matriz (x*x):'))
-    inserir(tmatriz)  # Insere os valores na matriz
+    linha = int(input('Digite o tamanho da matriz (x*x):'))
+    coluna = int(input('Digite o tamanho da matriz (x*x):'))
+    inserir(linha,coluna)  # Insere os valores na matriz
     mostrarrecursivo()  # Exibe a matriz de forma recursiva
 
 
