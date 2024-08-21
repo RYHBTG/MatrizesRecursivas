@@ -50,6 +50,7 @@ Agora que a matriz está preenchida, o programa segue para a função de **mostr
 - **if coluna >= len(matriz[linha])**: Aqui o programa faz uma verificação para saber se a coluna é menor ou igual ao tamanho da linha, e caso for ira pular para a próxima e continuar exibindo
 - **else: print(matriz[linha][coluna])**: Aqui o programa ira exibir item por item
 - **mostrarrecursivo(linha + 1, coluna)**: E aqui é o somatório aonde vai adicionando valores afim de percorrer toda coluna em cada uma das linhas
-## E após finalizar todo o processo, o programa se encerra deixando o usuário com o resultado do que construiu:![alt text](image-2.png)
+## E após finalizar todo o processo, o programa se encerra deixando o usuário com o resultado do que construiu:
+![alt text](image-2.png)
 ### Este é um exemplo de uma matriz 2x2
 
