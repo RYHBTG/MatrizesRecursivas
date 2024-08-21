@@ -47,7 +47,7 @@ Após o usuário ter fornecido o tamanho da matriz por completo, o programa segu
 ### Mostrar Recursivamente
 Agora que a matriz está preenchida, o programa segue para a função de **mostrarrecursivo()**,para isso seguiremos por partes o que cada *if* realiza:
 - **if linha >= len(matriz)**: Nesse caso, o programa irá conferir se todos os itens foram exibidos, esta é a condição de parada.
-- **if coluna >= len(matriz[linha])**: Aqui o programa faz uma verificação para saber se a coluna é menor ou igual ao tamanho da linha, e caso for ira pular para a próxima e continuar exibindo
+- **if coluna >= len(matriz[linha])**: Aqui o programa faz uma verificação para saber se a coluna é maior ou igual ao tamanho da linha, e caso for ira pular para a próxima linha e continuar exibindo
 - **else: print(matriz[linha][coluna])**: Aqui o programa ira exibir item por item
 - **mostrarrecursivo(linha + 1, coluna)**: E aqui é o somatório aonde vai adicionando valores afim de percorrer toda coluna em cada uma das linhas
 ## E após finalizar todo o processo, o programa se encerra deixando o usuário com o resultado do que construiu:
